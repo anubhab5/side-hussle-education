@@ -26,8 +26,10 @@ export class AppComponent {
       cardImage: 'app-development.png'
     },
     {
-      cardTitle: 'Train',
+      cardTitle: 'Skill Up Sessions',
       cardImage: 'teaching.png'
     },
   ];
+
+  
 }

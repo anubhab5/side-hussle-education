@@ -1,7 +1,7 @@
 <!-- header -->
-<div class="container-fluid">
+<!-- <div class="container-fluid">
   <sh-header-bar></sh-header-bar>
-</div>
+</div> -->
 
 <!-- Banner -->
 <div class="container-fluid">
@@ -48,6 +48,18 @@
   <div class="row">
     <div *ngFor="let card of cardData" class="col-md-3 col-sm-12">
       <sh-cards [cardTitle]="card.cardTitle" [cardImage]="card.cardImage"></sh-cards>
+    </div>
+  </div>
+</div>
+
+<!-- Popular Category -->
+<div class="container-fluid mt-3">
+  <div class="row">
+    <div class="col-12 d-flex flex-column align-items-center mt-2 mb-3">
+      <p class="m-0">Hot & Trending</p>
+      <h2 class="m-0">
+        <span class="text-danger">Featured </span> Courses of the <span class="text-success">Month</span>
+      </h2>
     </div>
   </div>
 </div>
