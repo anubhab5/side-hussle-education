@@ -46,14 +46,8 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-4 col-sm-12">
-      <sh-cards></sh-cards>
-    </div>
-    <div class="col-md-4 col-sm-12">
-      <sh-cards></sh-cards>
-    </div>
-    <div class="col-md-4 col-sm-12">
-      <sh-cards></sh-cards>
+    <div *ngFor="let card of cardData" class="col-md-3 col-sm-12">
+      <sh-cards [cardTitle]="card.cardTitle" [cardImage]="card.cardImage"></sh-cards>
     </div>
   </div>
 </div>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'sh-cards',
@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./cards.component.scss']
 })
 export class CardsComponent {
+
+  @Input()
+  cardTitle!: string;
+
+  @Input()
+  cardSubTitle!: string;
+
+  @Input()
+  cardImage!: string;
 
 }
