@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { CardsComponent } from './pattern/cards/cards.component';
 import { HeaderBarComponent } from './pattern/header-bar/header-bar.component';
+import { BigCardsComponent } from './pattern/big-cards/big-cards.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardsComponent,
-    HeaderBarComponent
+    HeaderBarComponent,
+    BigCardsComponent
   ],
   imports: [
     BrowserModule,
