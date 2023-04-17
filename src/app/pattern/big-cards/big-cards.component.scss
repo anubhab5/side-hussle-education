@@ -3,9 +3,10 @@
     align-items: center;
     img {
         width: 100%;
-        background-color: rgb(195, 195, 244);
+        background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
         height: auto;
         border-radius: 4px;
+
     }
 }
 
