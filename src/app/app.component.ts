@@ -39,7 +39,7 @@ export class AppComponent {
       type: 'Online',
       starRating: '5',
       price: '5000.00',
-      image: 'computer.png'
+      image: 'computer.jpg'
     },
     {
       cardHeading: 'Web Development',
