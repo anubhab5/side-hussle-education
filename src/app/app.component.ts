@@ -38,16 +38,16 @@ export class AppComponent {
       topic: '34 Topics',
       type: 'Online',
       starRating: '5',
-      price: '5000',
+      price: '5000.00',
       image: 'computer.png'
     },
     {
       cardHeading: 'Web Development',
       cardSubHeading: 'Instructor Led',
-      topic: '34 Topics',
+      topic: '47 Topics',
       type: 'Online',
       starRating: '5',
-      price: '5000',
+      price: '7000.00',
       image: 'computer_1.jpg'
     }
   ];
