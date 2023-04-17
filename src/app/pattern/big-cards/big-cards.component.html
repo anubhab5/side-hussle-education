@@ -1,26 +1,26 @@
 <div class="container-fluid card bg-light mb-3">
     <div class="row rounded-border">
-        <div class="col-md-6 col-sm-12 img-size">
-            <img src="../../../assets/computer.png" alt="">
+        <div class="col-md-6 col-sm-12 img-size mt-3">
+            <img src="../../../assets/{{cardContent.image}}" alt="">
         </div>
-        <div class="col-md-6 col-sm-12 d-flex align-items-center">
+        <div class="col-md-6 col-sm-12 d-flex align-items-center mt-3">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <h4 class="m-0">Angular Basics</h4>
+                        <h3 class="m-0">{{cardContent.cardHeading}}</h3>
                     </div>
                     <div class="col-12">
-                        <span>Instructor led course</span>
+                        <span>{{cardContent.cardSubHeading}}</span>
                     </div>
                     <div class="col-12 mt-2 mb-3">
                         <div class="row">
                             <span class="col-6 ">
                                 <i class="fa fa-calendar" aria-hidden="true"> </i>
-                                34 Topics
+                                {{cardContent.topic}}
                             </span>
                             <span class="col-6">
                                 <i class="fa fa-circle" aria-hidden="true"> </i>
-                                Online
+                                {{cardContent.type}}
                             </span>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                     </div>
                     <div class="col-12 mt-3 mb-2 d-flex align-items-baseline">
                         <i class="fa fa-inr" aria-hidden="true"> </i>
-                        <p class="lead "><strong>5000</strong></p>
+                        <p class="lead "><strong>{{cardContent.price}}</strong></p>
                     </div>
                 </div>
             </div>

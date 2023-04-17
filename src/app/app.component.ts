@@ -31,5 +31,25 @@ export class AppComponent {
     },
   ];
 
+  bigCardData = [
+    {
+      cardHeading: 'Angular Basics',
+      cardSubHeading: 'Instructor Led',
+      topic: '34 Topics',
+      type: 'Online',
+      starRating: '5',
+      price: '5000',
+      image: 'computer.png'
+    },
+    {
+      cardHeading: 'Web Development',
+      cardSubHeading: 'Instructor Led',
+      topic: '34 Topics',
+      type: 'Online',
+      starRating: '5',
+      price: '5000',
+      image: 'computer_1.jpg'
+    }
+  ];
   
 }

@@ -66,14 +66,8 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-4 col-sm-12">
-      <sh-big-cards></sh-big-cards>
-    </div>
-    <div class="col-md-4 col-sm-12">
-      <sh-big-cards></sh-big-cards>
-    </div>
-    <div class="col-md-4 col-sm-12">
-      <sh-big-cards></sh-big-cards>
+    <div *ngFor="let card of bigCardData" class="col-md-4 col-sm-12">
+      <sh-big-cards [cardContent]="card"></sh-big-cards>
     </div>
   </div>
 </div>

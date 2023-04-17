@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { BigCardModel } from './big-cards.model';
 
 @Component({
   selector: 'sh-big-cards',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./big-cards.component.scss']
 })
 export class BigCardsComponent {
+
+  @Input()
+  cardContent !: BigCardModel;
 
 }
