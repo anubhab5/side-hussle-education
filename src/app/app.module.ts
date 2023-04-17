@@ -8,13 +8,15 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { CardsComponent } from './pattern/cards/cards.component';
 import { HeaderBarComponent } from './pattern/header-bar/header-bar.component';
 import { BigCardsComponent } from './pattern/big-cards/big-cards.component';
+import { MytestDirective } from './directives/mytest.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardsComponent,
     HeaderBarComponent,
-    BigCardsComponent
+    BigCardsComponent,
+    MytestDirective
   ],
   imports: [
     BrowserModule,
